@@ -1,0 +1,23 @@
+:root{
+  --bg-900:#0f0f14;
+  --text-100:#e9e7ef;
+  --muted-300:#b7b3c7;
+  --accent:#7C4DFF;
+  --accent-2:#B388FF;
+  --card-glass: rgba(255,255,255,0.04);
+  --border-glass: rgba(255,255,255,0.12);
+}
+html,body{background: var(--bg-900); color: var(--text-100);}
+.navbar{background: rgba(10,10,14,.8); border-bottom: 1px solid var(--border-glass);}
+.brand-accent .dot{color: var(--accent);}
+.hero{padding: 7rem 0 4rem;}
+.btn-accent{background: var(--accent); color:#fff;}
+.btn-accent:hover{background:#6A3CF8;}
+.project-card{background: var(--card-glass); border:1px solid var(--border-glass);}
+.project-img{aspect-ratio: 16/9; object-fit: cover;}
+.section-divider{height:1px; background:rgba(255,255,255,.15); margin:2rem 0;}
+.accent-underline{border-bottom:3px solid var(--accent);}
+.text-muted-custom{color: var(--muted-300)!important;}
+.link-accent{color: var(--accent-2);}
+.link-accent:hover{color: var(--accent);}
+.about-box,.contact-box{background: rgba(255,255,255,.03); border:1px solid var(--border-glass);}
